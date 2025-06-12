@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #101935;
+    text-align: center;
+}
+
+/* header{
+     background-color: #0A100D;
+    color: #F2FDFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+main{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.calculator{
+    height: 400px;
+    width: 600px;
+    /* border: 2px solid red; */
+    background-color: #9AD4D6;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #9AD4D6;
+}
+
+.calc-head{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border-bottom: 2px solid #F2FDFF;
+}
+
+.calc-inputs{
+    height: 200px;
+    width: auto;
+    margin:10px;
+    /* border: 2px solid green; */
+}
+
+.para{
+    height: 40px;
+    width: 400px;
+    /* border: 1px solid black; */
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.input{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600; 
+    border-radius: 5px;
+    background-color: #F2FDFF;
+    box-shadow: 0px 0px 6px #0A100D;
+}
+
+.btn-div{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0A100D;
+    color: #F2FDFF;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500; 
+}
+
+.output{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.output-para{
+    height: 50px;
+    width: 100%;
+    border: none;
+    /* border-radius: 5px; */
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* border: 1px solid black; */
+}
+
+#btn-output{
+    font-size: 32px;
+    margin-left: 10px;
+}
